@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 20px;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 03 - Case 02</title>
+
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+
+        body{
+            font-size: medium;
+        }
+        header {
+            background-color: lightblue;
+            position: relative;
+            width: 100vw;
+            height: 60px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        header>img {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 10px;
+            margin: auto;
+        }
+
+        header>nav {
+            height: fit-content;
+            position: absolute;
+            right: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        header>nav>ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        header>nav>ul>li {
+            display: inline-block;
+        }
+        footer{
+            background-color: gray;
+            text-align: center;
+            color: white;
+            padding: 20px 0px;  /* padding:<top-bottom> <rigth-left>  and this same as margin */
+
+        }
+        main{
+            position: relative;
+        }
+        main>aside{
+            background-color: darkmagenta;
+            color: white;
+            padding: 10px;
+            width: 150px;
+            position: absolute;
+            box-sizing: border-box;
+
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        main>aside>ul{
+            margin: 0;
+            list-style: none;
+            padding: 0;
+        }
+        main>section{
+            background-color: lightyellow;
+            width: calc(100vw - 150px);
+            margin-left: 150px;
+            position: relative;
+        }
+        main>section>p{
+            margin: 0;
+        }
+        section>div{
+            position: relative;
+        }
+        main>section>div>div{
+            background-color: darkred;
+            width: calc(100% / 3);
+            height: 250px;
+            position: absolute;
+            background: url("assets/bird.gif");
+            background-position: center ;
+            border:green solid 3px;
+            box-sizing: border-box;
+
+
+        }
+        section>div>div:first-child{
+            background-color: blue;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+        section>div>div:nth-child(2){
+            background-color: lightgreen;
+
+        }
+        section>div>div:last-child{
+            background-color: orange;
+            right: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+    <img src="../assets/img.png" title="ijse.lk" alt="ijse logo" width="150">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!--side bar-->
+    <aside>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>About Us</li>
+        </ul>
+    </aside>
+
+    <!--Contnt-->
+    <section>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+        </p>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+        </p>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+        </p>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+        </p>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+        </p>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+        </p>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+        </p>
+        <br>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolore explicabo fugit possimus quod tenetur voluptas? A eius, eligendi facere, illo incidunt ipsa ipsam modi molestias sed, sint velit veniam.
+        </p>
+        <br>
+
+    </section>
+</main>
+
+<footer>
+    Developed By IJSE
+</footer>
+
+</body>
+</html>
